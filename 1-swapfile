@@ -1,0 +1,25 @@
+STEPS TO CREATE / EDIT /REMOVE SWAPFILE
+
+1- check swap = sudo swapon --show
+
+2-turn swap off = sudo swapoff -v /swapfile
+
+3-create file = sudo fallocate -l 4G /swapfile
+
+4-give permission =sudo chmod 600 /swapfile 
+
+5-create swap file system = sudo mkswap /swapfile
+
+6-turn on swap = sudo swapon /swapfile
+
+7-remove swapfile=  sudo rm /swapfile
+
+8-swapfile mention location = /etc/fstab (edit this file with root access with editor of your choice and edit or remove entry [not file])
+
+9-check swappiness value = cat /proc/sys/vm/swapiness
+
+10-change swappiness = sudo nano /etc/sysctl.conf  {add line "vm.swappiness=10" replace 10 by your number }
+Note: less swappiness== more ram use 
+
+
+**its better to delete and create new swap file instead of editing 

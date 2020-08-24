@@ -1,0 +1,18 @@
+Docker COmmands:
+
+1-PULL : docker pull <container_name>
+2-RUN: docker run <name/id>
+3-LIST: docker ps / docker ps -a / docker ps -l  <name/id>
+4-START:docker start <name/id>
+5-STOP: docker stop <name/id>
+6-REMOVE: docker rm <name/id>
+7-HELP: docker <option> help : docker run help/ docker start help
+8-COMMIT : docker commit -m "What you did to the image" -a "Author Name" container_id repository/new_image_name
+	-m = for message 
+	-a = to specify author 
+	repository = repository name from docker hub / generally username 
+	new_image_name= any name that you want
+9-LOGIN: docker login -u docker-registry-username
+10-TAG: docker tag sammy/ubuntu-nodejs docker-registry-username/ubuntu-nodejs
+11-PUSH: docker push docker-registry-username/docker-image-name ::: docker push sammy/ubuntu-nodejs
+
