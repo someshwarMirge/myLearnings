@@ -1,4 +1,0 @@
-steps:
-1- grub resume uuid set [ in grub file] 
-2- resume offset set 
-3-
