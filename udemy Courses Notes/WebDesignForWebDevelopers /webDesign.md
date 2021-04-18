@@ -3,6 +3,8 @@ ___
 RESOURCE:http://codingheroes.io/resources/
 ___
 #Web Design For Web Developers 
+
+
 ###<span style="color:red">25 + Guidlines For amazing Web Design </span>
 
 ####<span style="color:blue">1. Beautiful typography </span>
