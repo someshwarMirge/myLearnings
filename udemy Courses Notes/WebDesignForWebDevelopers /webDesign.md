@@ -175,5 +175,34 @@ Example: http://jsfiddle.net/gRzPF/409/
 - Use __vector__ images __instead of raster__
   ![Image](iconFonts.png)
   
-###
+###SPACING And LAYOUT
+
+>Whitespace : free spacing . it makes site feel and look good
+
+
+- there should be room to breath.
+- put whitespace between elements.
+- between group of elements
+- between sections
+- don't use too much .
+- Define hierarchy and relation between elements using whitespace.
+- hierarchies give website order.
+  
+
+
+__Steps:__
+1. Define where audience should look first
+2. establish a flow that corresponds to your content's message.
+3. Use white spaces accordingly
+
+
+___
+
+###USER EXPERIENCE (UX)
+
+>UX design : this is overall experience of product . It includes UI + other components.
+
+![Image](ux.png)
+UX is combination of user goals ani business goals.
+
 
